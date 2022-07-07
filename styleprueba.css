@@ -68,6 +68,10 @@ nav {
   font-size: 21px;
 }
 
+.header__content-navbar li a:hover {
+  color: rgb(93, 101, 127);
+}
+
 .main {
   display: block;
   background-color: bisque;
@@ -84,6 +88,7 @@ nav {
 .servicios {
   padding: 20px;
 }
+
 
 .form {
   display: flex;
@@ -107,6 +112,7 @@ nav {
   border: 2px solid rgb(25, 41, 93);
   background-color: bisque;
   font-family: 'Kanit', sans-serif;
+  border-radius: 5px;
 }
 
 .form__mail {
@@ -120,6 +126,7 @@ nav {
   border: 2px solid rgb(25, 41, 93);
  background-color: bisque;
  font-family: 'Kanit', sans-serif;
+ border-radius: 5px;
 }
 
 .form__telefono {
@@ -132,6 +139,7 @@ nav {
   padding: 7px;
   border: 2px solid rgb(25, 41, 93);
   background-color: bisque;font-family: 'Kanit', sans-serif;
+  border-radius: 5px;
 }
 
 .form__consultas {
@@ -148,6 +156,7 @@ nav {
   border: 2px solid rgb(25, 41, 93);
   background-color: bisque;
   font-family: 'Kanit', sans-serif;
+  border-radius: 5px;
 }
 
 .form__notificaciones {
@@ -174,6 +183,7 @@ nav {
   background-color:rgb(25, 41, 93);
   color:bisque;
   font-size: 18px;
+  border-radius: 5px;
 }
 
 .main__images {
@@ -208,6 +218,15 @@ nav {
 
 .image:nth-child(7){
   grid-column: 4/6;
+}
+
+.image {
+  transition: 0.2s;
+}
+
+.image:hover {
+  width: 101%;
+  height: 101%;
 }
 
 .footer {
