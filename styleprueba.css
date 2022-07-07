@@ -85,6 +85,10 @@ nav {
   padding: 20px;
 }
 
+.sobre-nosotros__texto h2 {
+  color: rgb(25, 25, 117);
+}
+
 .servicios {
   padding: 20px;
 }
@@ -172,15 +176,15 @@ nav {
   margin-top: 10px;
 }
 
-.form__boton button:hover {
+/* .form__boton button:hover {
   background-image: radial-gradient(circle, rgb(25, 41, 93), rgb(5, 12, 35));
-}
+} */
 
 .form__boton button {
   width: 130px;
   height: 50px;
   border: none;
-  background-color:rgb(25, 41, 93);
+  /* background-color:rgb(25, 41, 93); */
   color:bisque;
   font-size: 18px;
   border-radius: 5px;
@@ -222,11 +226,13 @@ nav {
 
 .image {
   transition: 0.2s;
+
 }
 
 .image:hover {
   width: 101%;
   height: 101%;
+  opacity: 100% !important;
 }
 
 .footer {
