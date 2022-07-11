@@ -81,12 +81,25 @@ nav {
   grid-area: main;
 }
 
+.sobre__nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .sobre-nosotros {
   padding: 20px;
+  width: 70%;
 }
 
 .sobre-nosotros__texto h2 {
   color: rgb(25, 25, 117);
+}
+
+.sobre__nosotros-fotoimg {
+  width: 400px;
+  height: 430px;
+  border-radius: 130px;
 }
 
 .servicios {
@@ -491,7 +504,7 @@ nav {
     justify-content: center;
   }
 
-  .header__content a{
+  .a__logo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -513,7 +526,7 @@ nav {
     text-align: center;
   }
 
-  .header__content-navbar li {
+  .header__content-navbar li{
     margin: 0px;
   }
 
