@@ -312,6 +312,13 @@ nav {
     display: none;
   }
   
+  .sobre__nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
   .main {
     margin: 0px;
   }
@@ -415,6 +422,17 @@ nav {
     display: none;
   }
   
+  .sobre__nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sobre-nosotros {
+    width: 100%
+  }
+
   .main {
     margin: 0px;
   }
