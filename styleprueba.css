@@ -52,6 +52,10 @@ nav {
   display: flex;
 }
 
+.navbar {
+  display: none;
+}
+
 .header__content-navbar {
   display: flex;
   align-items: center;
@@ -534,6 +538,20 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  #offcanvasNavbar {
+    background-color: bisque;
+    color:rgb(25, 25, 117);
+
   }
 
   .header__content-navbar {
