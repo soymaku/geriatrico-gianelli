@@ -1,0 +1,22 @@
+{
+  "name": "geraitrico-gianelli",
+  "version": "1.0.0",
+  "description": "Proyecto Maku Gianelli",
+  "main": "index.js",
+  "scripts": {
+    "build":"node-sass --icnlude-path sass ./sass/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soymaku/geriatrico-gianelli.git"
+  },
+  "author": "Maku Gianelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soymaku/geriatrico-gianelli/issues"
+  },
+  "homepage": "https://github.com/soymaku/geriatrico-gianelli#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

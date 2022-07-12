@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background-image: radial-gradient(circle, #bbcfff, #8b9bcd, #5d6b9d, #313d6f, #011544);
+  font-size: 20px;
+  display: grid;
+  grid-template-areas: 
+  "header header header"
+  "main   main   main"
+  "footer footer footer"
+}
+
+a {
+  text-decoration: none;
+  color:rgb(25, 41, 93) !important;
+}
+
+nav {
+  display: flex;
+}
