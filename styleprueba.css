@@ -17,6 +17,7 @@ body {
 
 a {
   text-decoration: none;
+  color:rgb(25, 41, 93) !important;
 }
 
 
@@ -54,6 +55,10 @@ nav {
 
 .navbar {
   display: none;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid rgb(5, 12, 35);
 }
 
 .header__content-navbar {
@@ -193,15 +198,18 @@ nav {
   margin-top: 10px;
 }
 
-/* .form__boton button:hover {
+.form__boton button:hover {
   background-image: radial-gradient(circle, rgb(25, 41, 93), rgb(5, 12, 35));
-} */
+}
 
 .form__boton button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 130px;
   height: 50px;
   border: none;
-  /* background-color:rgb(25, 41, 93); */
+  background-color:rgb(25, 41, 93);
   color:bisque;
   font-size: 18px;
   border-radius: 5px;
