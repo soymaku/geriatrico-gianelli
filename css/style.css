@@ -29,7 +29,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: 4px solid #19295d; }
-    .header__content-logo {
+    .header__content-alogo {
       display: flex;
       width: 300px;
       height: 200px; }
@@ -42,7 +42,7 @@ nav {
   display: none; }
 
 .offcanvas-header {
-  border-bottom: 1px solid #050c23; }
+  border-bottom: 1px solid #19295d; }
 
 .header__content-navbar {
   display: flex;
@@ -103,11 +103,19 @@ nav {
     padding: 20px;
     width: 70%; }
   .sobre__nosotros-texto h2 {
-    color: #191975; }
+    color: #19295d; }
   .sobre__nosotros-fotoimg {
     width: 400px;
     height: 430px;
     border-radius: 130px; }
+
+.inputForm, .form__nombre input, .form__mail input, .form__telefono input {
+  width: 300px;
+  padding: 7px;
+  border: 2px solid #19295d;
+  background-color: bisque;
+  font-family: 'Kanit', sans-serif;
+  border-radius: 5px; }
 
 .form {
   display: flex;
@@ -119,33 +127,12 @@ nav {
   .form__nombre {
     display: flex;
     flex-direction: column; }
-    .form__nombre input {
-      width: 300px;
-      padding: 7px;
-      border: 2px solid #19295d;
-      background-color: bisque;
-      font-family: 'Kanit', sans-serif;
-      border-radius: 5px; }
   .form__mail {
     display: flex;
     flex-direction: column; }
-    .form__mail input {
-      width: 300px;
-      padding: 7px;
-      border: 2px solid #19295d;
-      background-color: bisque;
-      font-family: 'Kanit', sans-serif;
-      border-radius: 5px; }
   .form__telefono {
     display: flex;
     flex-direction: column; }
-    .form__telefono input {
-      width: 300px;
-      padding: 7px;
-      border: 2px solid #19295d;
-      background-color: bisque;
-      font-family: 'Kanit', sans-serif;
-      border-radius: 5px; }
   .form__consultas {
     display: flex;
     flex-direction: column; }
@@ -201,11 +188,35 @@ nav {
     flex-direction: column;
     justify-content: center;
     font-size: 68.5%; }
+    .footer__info-facebook {
+      width: 40px;
+      height: 40px; }
+    .footer__info-instagram {
+      width: 40px;
+      height: 40px; }
+    .footer__info-whatsapp {
+      width: 40px;
+      height: 40px; }
   .footer__map {
     display: flex;
     align-items: center; }
     .footer__map iframe {
       border: none; }
+
+.link-facebook {
+  margin: 10px;
+  border-radius: 20px;
+  background: #3b5598; }
+
+.link-instagram {
+  margin: 10px;
+  border-radius: 20px;
+  background: #c92d8f; }
+
+.link-whatsapp {
+  margin: 10px;
+  border-radius: 20px;
+  background: #25d366; }
 
 @media (max-width: 1200px) {
   body {
@@ -337,7 +348,7 @@ nav {
     .footer__map {
       margin-bottom: 25px; } }
 
-@media (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   body {
     grid-template-areas: "header" "main" "footer"; }
   nav {
