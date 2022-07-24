@@ -29,7 +29,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: 4px solid #19295d; }
-    .header__content-alogo {
+    .header__content-logo {
       display: flex;
       width: 300px;
       height: 200px; }
@@ -227,6 +227,10 @@ nav {
       flex-direction: row;
       justify-content: space-between;
       align-items: center; }
+      .header__content-alogo {
+        display: flex;
+        width: 300px;
+        height: 200px; }
       .header__content-navbar {
         display: flex; }
       .header__content-title {
@@ -291,6 +295,10 @@ nav {
       flex-direction: column;
       justify-content: center;
       align-items: center; }
+      .header__content-alogo {
+        display: flex;
+        width: 300px;
+        height: 200px; }
       .header__content-navbar {
         display: flex; }
       .header__content-title {
@@ -353,29 +361,35 @@ nav {
     grid-template-areas: "header" "main" "footer"; }
   nav {
     display: none; }
-  .header__content {
-    display: flex;
-    justify-content: center; }
-    .header__content-alogo {
+  .header {
+    margin: 0px; }
+    .header__content {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 80%;
-      height: 80%; }
-    .header__content-logo {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-    .header__content-navbar {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center; }
-      .header__content-navbar li {
-        margin: 0px; }
-    .header__content-title {
-      display: none; }
+      justify-content: center; }
+      .header__content-alogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%; }
+      .header__content-alogo {
+        display: flex;
+        width: 300px;
+        height: 200px; }
+      .header__content-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .header__content-navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center; }
+        .header__content-navbar li {
+          margin: 0px; }
+      .header__content-title {
+        display: none; }
   .navbar {
     display: flex; }
   #offcanvasNavbar {
