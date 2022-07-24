@@ -299,6 +299,12 @@ nav {
         display: flex;
         width: 300px;
         height: 200px; }
+      .header__content-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 200px; }
       .header__content-navbar {
         display: flex; }
       .header__content-title {
@@ -379,7 +385,9 @@ nav {
       .header__content-logo {
         display: flex;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        width: 300px;
+        height: 200px; }
       .header__content-navbar {
         display: flex;
         flex-direction: column;
