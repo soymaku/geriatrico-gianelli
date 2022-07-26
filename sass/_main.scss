@@ -32,6 +32,7 @@
 .image {
   transition: 0.2s;
   opacity: 75%;
+  align-self: center;
   &:hover {
     width: 101%;
     height: 101%;
